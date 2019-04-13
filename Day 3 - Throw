@@ -1,0 +1,17 @@
+function isPositive(a) {
+    try {
+        if (a < 0)
+        {
+            throw "Negative Error";
+
+        } else if (a == 0) {
+            throw "Zero Error";
+        } else {
+            return "YES"; 
+        }
+
+    }
+    catch (err) {
+        return err;
+    }
+}
