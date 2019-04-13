@@ -1,0 +1,7 @@
+function regexVar() {
+
+    var re;
+    re = /^([aeiou]).*\1$/; 
+
+    return re;
+}
